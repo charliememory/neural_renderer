@@ -12,5 +12,5 @@ setuptools.setup(
     name='neural_renderer',
     test_suite='tests',
     packages=['neural_renderer'],
-    install_requires=['numpy', 'chainer', 'cupy', 'tqdm', 'scikit-image'],
+    install_requires=['numpy', 'chainer', 'cupy-cuda92', 'tqdm', 'scikit-image'],
 )
